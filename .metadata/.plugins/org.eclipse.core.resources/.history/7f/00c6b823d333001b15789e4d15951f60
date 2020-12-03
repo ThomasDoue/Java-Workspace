@@ -1,0 +1,14 @@
+import java.util.Random;
+
+public class GuessNumber {
+	public static void main(String args[]) {
+		int n = getRandomNumber();
+		System.out.println(n);
+	}
+	
+	static int getRandomNumber() {
+		Random r = new Random();
+        return r.nextInt(100);
+	}
+
+}

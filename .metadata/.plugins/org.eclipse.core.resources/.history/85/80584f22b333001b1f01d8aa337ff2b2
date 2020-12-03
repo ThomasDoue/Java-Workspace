@@ -1,0 +1,11 @@
+
+public class Labs1_ex2 {
+	
+	int size_of_square = 4;
+for(int i = 0; i < size_of_square; i++){
+    for(int j = 0; j < size_of_square; j++){
+        System.out.print("#");
+    }
+    System.out.print("\n");
+}
+

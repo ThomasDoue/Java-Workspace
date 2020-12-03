@@ -1,0 +1,10 @@
+import java.util.Random;
+
+public class GuessNumber {
+	public static void gennumber(String args[]) {
+		Random r = new Random();
+        int n = r.nextInt(5);
+        System.out.println(n);
+	}
+
+}

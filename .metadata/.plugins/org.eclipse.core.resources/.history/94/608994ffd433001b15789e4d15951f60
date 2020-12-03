@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class GuessNumber {
+	public static void main(String args[]) {
+		int n = getRandomNumber();
+		System.out.print("Donnez un nombre ");
+		Scanner t = new Scanner(System.in);
+		while (n != t)
+				if (t = n)
+					System.out.print("bravo");
+				else if (t < n)
+					System.out.print("Plus grand !");
+					System.out.print("Donnez un nombre ");
+					Scanner t = Scanner(System.in);
+}
+
+}

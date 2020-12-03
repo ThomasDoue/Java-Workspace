@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class GuessNumber {
+	public static void main(String args[]) {
+		Scanner scan = new Scanner(System.in);
+        Random random = new Random();
+        int from = 1;
+        int to = 10;
+        int randomNumber = random.nextInt(to - from + 1) + from;
+        int guessedNumber = 0;
+
+        System.out.printf("The number is between %d and %d.\n", from, to);
+
+        do
+        {
+            System.out.print("Guess what the number is: ");
+            guessedNumber = scan.nextInt();
+            if (guessedNumber > randomNumber)
+                System.out.println("Incorrect guess!!");
+            else if (guessedNumber < randomNumber)
+                System.out.println("Incorrect guess!!");
+            else
+                System.out.println("Correct guess!!\n\n\n");
+        } while (guessedNumber != randomNumber);
+    }
+}

@@ -1,0 +1,39 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class GuessNumber {
+	public static void main(String args[]) {
+		int n = getRandomNumber();
+		int t;
+	}
+	
+	static int getRandomNumber() {
+		Random r = new Random();
+        return r.nextInt(100);
+	}
+
+	public static void finder(String args[]) {
+		System.out.print("Donnez un nombre ");
+		Scanner t = new Scanner(System.in);
+
+
+		for (i = n);
+			if (t = n)
+				System.out.print("bravo");
+			else if (t < n)
+				System.out.print("Plus grand !");
+				System.out.print("Donnez un nombre ");
+				Scanner t = new Scanner(System.in);
+
+				
+
+
+
+		
+		
+			
+			
+	}
+	
+	
+}
