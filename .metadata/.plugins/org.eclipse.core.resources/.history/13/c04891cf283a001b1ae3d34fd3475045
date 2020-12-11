@@ -1,0 +1,5 @@
+package fr.campusacademy.oopcourse.AuthorBooks.model;
+
+public class Author {
+
+}

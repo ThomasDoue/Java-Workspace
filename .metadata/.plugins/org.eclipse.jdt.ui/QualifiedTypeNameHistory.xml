@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="fr.campusacademy.oopcourse.Démo6.model.Computer"/>
+    <fullyQualifiedTypeName name="fr.campusacademy.oopcourse.Démo6.model.GPU"/>
+    <fullyQualifiedTypeName name="fr.campusacademy.oopcourse.model.Smartphone"/>
+    <fullyQualifiedTypeName name="fr.campusacademy.oopcourse.tp3polyphormism.model.Rectangle"/>
+    <fullyQualifiedTypeName name="fr.campusacademy.oopcourse.tp3polyphormism.model.Shape"/>
+    <fullyQualifiedTypeName name="fr.campusacademy.oopcourse.tp3polyphormism.model.Triangle"/>
+</qualifiedTypeNameHistroy>
